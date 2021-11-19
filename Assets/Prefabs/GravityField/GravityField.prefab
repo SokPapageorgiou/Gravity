@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2879988926047381672}
   - component: {fileID: 3491778326226054157}
   - component: {fileID: 2325762281190829458}
+  - component: {fileID: 2325762281190829462}
   m_Layer: 0
   m_Name: GravityField
   m_TagString: Untagged
@@ -4830,3 +4831,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2325762281190829462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6407524975885189333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64b5f74e2b64d2469be539fc9072636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
