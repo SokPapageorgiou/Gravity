@@ -7,16 +7,24 @@ using UnityEngine;
 
 namespace CelestialBody
 {
+    [RequireComponent(typeof(MeshRenderer))]
     public class PlanetPlacer : MonoBehaviour
     {
         [SerializeField] private PlanetStats planet;
 
         private void Awake()
         {
+            DisableMeshRenderer();
+            
             var position = this.transform.position;
             
             PlacePlanet(position);
             PlaceGravityField(position);
+        }
+
+        private void DisableMeshRenderer()
+        {
+            GetComponent<MeshRenderer>().enabled = false;
         }
 
         private void PlacePlanet(Vector3 position)
