@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086b56a87ae11c545b2cba118535c6a2, type: 3}
   m_Name: PlanetBasic
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  scale: 1
   mass: 10
-  planetScale: 1
-  gravityFieldScale: 5
+  gravityFieldScale: 1
   planet: {fileID: 7233032514402116185, guid: 28c5245f8fe191648b5a0195e33faab6, type: 3}
   gravityField: {fileID: 6407524975885189333, guid: 2f192243145e0d34d9ae83c7148fe6ac, type: 3}

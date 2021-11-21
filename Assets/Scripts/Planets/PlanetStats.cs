@@ -9,8 +9,6 @@ namespace Planet
     public class PlanetStats : ScriptableObject
     {
         [Header("Planet's Transform")] 
-        [SerializeField] private Vector3 position;
-
         [SerializeField] private float scale;
 
         [Header("Physics")]
@@ -23,9 +21,7 @@ namespace Planet
 
         public GameObject gravityField;
 
-        public Vector3 Position => position;
         public float Scale => scale;
-        
         public float Mass => mass;
         public float GravityFieldScale => gravityFieldScale;
     }
