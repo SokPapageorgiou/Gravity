@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GravityField;
 using Planet;
 using UnityEngine;
 
@@ -30,6 +31,7 @@ namespace CelestialBody
             var gravityFieldTemp = Instantiate(planet.gravityField);
             gravityFieldTemp.transform.position = position;
             gravityFieldTemp.GetComponent<SphereCollider>().radius *= planet.GravityFieldScale;
+            gravityFieldTemp.GetComponent<Puller>().Mass = planet.Mass;
             var gravityShape = gravityFieldTemp.GetComponent<ParticleSystem>().shape;
             gravityShape.radius *= planet.GravityFieldScale;
         }
