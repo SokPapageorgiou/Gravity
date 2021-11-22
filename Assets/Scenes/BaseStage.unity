@@ -338,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5629207208054062238, guid: 7759e6b43c3c0b541b8ce7c5419c85fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5629207208054062238, guid: 7759e6b43c3c0b541b8ce7c5419c85fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -380,6 +380,18 @@ PrefabInstance:
     - target: {fileID: 1227789003924293402, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227789003924593464, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227789003924593464, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227789003924593464, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1227789003924593466, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
       propertyPath: m_RootOrder
