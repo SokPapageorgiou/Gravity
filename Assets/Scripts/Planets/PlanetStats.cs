@@ -21,9 +21,12 @@ namespace Planet
 
         public GameObject gravityField;
 
+        
+
         public float Scale => scale;
         public float Mass => mass;
         public float GravityFieldScale => gravityFieldScale;
+
+        
     }
-    
 }

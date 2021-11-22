@@ -25,8 +25,6 @@ namespace Commons
             Vector3 force = -forceMagnitude * direction.normalized;
             
             _rigidbody.AddForce(force);
-            
-            Debug.Log("It is pulling!");
         }
     }    
 }

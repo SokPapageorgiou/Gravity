@@ -11,8 +11,16 @@ namespace Player
         [SerializeField] private float speed;
         [SerializeField] private float angularSpeed;
 
+        [Header("Score")] [SerializeField] 
+        private float astronauts;
+        
         public float Speed => speed;
         public float AngularSpeed => angularSpeed;
+        
+        public void GetAstronaut()
+        {
+            astronauts++;
+        }
     }    
 }
 

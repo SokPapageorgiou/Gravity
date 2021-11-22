@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1227789003924593464}
   - component: {fileID: 1227789003927460636}
   - component: {fileID: 1227789003926493660}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: polySurface1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,9 +97,10 @@ GameObject:
   - component: {fileID: 8367001889820962353}
   - component: {fileID: 6497377678487107209}
   - component: {fileID: 6497377678487107213}
-  m_Layer: 0
+  - component: {fileID: 7331153581167416833}
+  m_Layer: 3
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,8 +131,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4595816, y: 0.19084316, z: 1.1522303}
-  m_Center: {x: -0.0038058162, y: 0.08487043, z: 0.07611537}
+  m_Size: {x: 0.22776365, y: 0.19084316, z: 0.5410726}
+  m_Center: {x: -0.00029349327, y: 0.08487043, z: 0.07260291}
 --- !u!54 &6497377678487107210
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -183,5 +184,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76589b8c0941bf447be955c591e97859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7331153581167416833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227789003924293402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5b4674c354f6e448ebec6bd2688e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
