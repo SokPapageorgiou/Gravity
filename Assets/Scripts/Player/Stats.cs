@@ -21,6 +21,11 @@ namespace Player
         {
             astronauts++;
         }
+
+        public void ResetAstronauts()
+        {
+            astronauts = 0;
+        }
     }    
 }
 
