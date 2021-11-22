@@ -1,11 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Player
 {
     [RequireComponent(typeof(PlayerStatsLoader))]
+    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(Collider))]
     public class PlayerCollider : MonoBehaviour
     {
         private Stats _playerStats;
