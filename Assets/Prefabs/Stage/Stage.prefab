@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 527372908467712246}
   - component: {fileID: 251171732924034763}
   - component: {fileID: 5832213848118516920}
+  - component: {fileID: 503798240}
   m_Layer: 0
   m_Name: Stage
   m_TagString: Untagged
@@ -60,3 +61,15 @@ MonoBehaviour:
   initialPosition: {x: -8, y: 0, z: 3}
   player: {fileID: 0}
   spaceStation: {fileID: 0}
+--- !u!114 &503798240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817821521728481775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5236d205ff9e9374ab95242165388c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Player
 {
@@ -11,11 +12,24 @@ namespace Player
         [SerializeField] private float speed;
         [SerializeField] private float angularSpeed;
 
-        [Header("Score")] [SerializeField] 
-        private float astronauts;
+        [Header("Fuel")] 
+        [SerializeField] private int fuelAmount;
+        [SerializeField] private float fuelConsumeRate;
+        
+        [Header("Score")]
+        [SerializeField] private int astronauts;
+        [SerializeField] private int winnigCondition;
         
         public float Speed => speed;
         public float AngularSpeed => angularSpeed;
+
+        public int FuelAmount => fuelAmount;
+        public float FuelConsumeRate => fuelConsumeRate;
+        
+        public int WinningCondition
+        {
+            set => winnigCondition = value;
+        }
         
         public void GetAstronaut()
         {
@@ -26,6 +40,8 @@ namespace Player
         {
             astronauts = 0;
         }
+        
+        
     }    
 }
 
