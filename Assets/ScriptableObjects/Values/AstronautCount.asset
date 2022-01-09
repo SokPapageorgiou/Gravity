@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 094f661e9a963004b8085157ecc79dc5, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: f463f759b711947408f2cb0792ab5724, type: 3}
+  m_Name: AstronautCount
   m_EditorClassIdentifier: 
-  speed: 1
-  angularSpeed: 45
-  fuelAmount: 0
-  fuelConsumeRate: 1
-  astronauts: 0
-  winnigCondition: 0
+  array:
+  - {fileID: 0}
+  - {fileID: 0}

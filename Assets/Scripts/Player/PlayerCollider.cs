@@ -16,7 +16,7 @@ namespace Player
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag($"Collectible"))
+            if (other.gameObject.CompareTag("Astronaut"))
             {
                 _playerStats.GetAstronaut();
                 other.gameObject.SetActive(false);

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2297942571216189893}
   - component: {fileID: 3418831762476597874}
   - component: {fileID: 5596384531451513589}
+  - component: {fileID: 4022571107640126702}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0 | 3
+--- !u!114 &4022571107640126702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687418061930580936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4235317ea4c8d54ca0b9d79abbf2d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronauts: {fileID: 11400000, guid: 456f384b631c6424eb18136234f9aed9, type: 2}
 --- !u!1 &1912505055224950292
 GameObject:
   m_ObjectHideFlags: 0
