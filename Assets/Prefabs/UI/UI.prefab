@@ -92,6 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4235317ea4c8d54ca0b9d79abbf2d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerStats: {fileID: 11400000, guid: 65708ac1251e4724da49b1055cf56eee, type: 2}
   astronauts: {fileID: 11400000, guid: 456f384b631c6424eb18136234f9aed9, type: 2}
 --- !u!1 &1912505055224950292
 GameObject:

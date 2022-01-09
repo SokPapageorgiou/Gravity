@@ -16,29 +16,26 @@ namespace Player
         [SerializeField] private int fuelAmount;
         [SerializeField] private float fuelConsumeRate;
         
+        [FormerlySerializedAs("astronauts")]
         [Header("Score")]
-        [SerializeField] private int astronauts;
-        [SerializeField] private int winnigCondition;
+        [SerializeField] private int rescuedAstronauts;
         
         public float Speed => speed;
         public float AngularSpeed => angularSpeed;
 
         public int FuelAmount => fuelAmount;
         public float FuelConsumeRate => fuelConsumeRate;
-        
-        public int WinningCondition
-        {
-            set => winnigCondition = value;
-        }
+
+        public int RescuedAstronauts => rescuedAstronauts;
         
         public void GetAstronaut()
         {
-            astronauts++;
+            rescuedAstronauts++;
         }
 
         public void ResetAstronauts()
         {
-            astronauts = 0;
+            rescuedAstronauts = 0;
         }
         
         

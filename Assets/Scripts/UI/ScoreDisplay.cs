@@ -1,5 +1,6 @@
 using System;
 using Commons;
+using Player;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ namespace UI
     [RequireComponent(typeof(Text))]
     public class ScoreDisplay : MonoBehaviour
     {
+        [SerializeField] private Stats playerStats;
         [SerializeField] private ArrayGameObjects astronauts;
 
         private Text _score;
@@ -24,7 +26,7 @@ namespace UI
 
         private void SetTextToDisplay()
         {
-            _score.text = "0 | " + astronauts.Array.Length;
+            _score.text = playerStats.RescuedAstronauts + " | " + astronauts.Array.Length;
         }
     }    
 }
