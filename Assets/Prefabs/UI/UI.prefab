@@ -92,6 +92,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4235317ea4c8d54ca0b9d79abbf2d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 95d38d38fdcae974c9a3caef50362d02, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4022571107640126702}
+        m_TargetAssemblyTypeName: UI.ScoreDisplay, Assembly-CSharp
+        m_MethodName: SetTextToDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   playerStats: {fileID: 11400000, guid: 65708ac1251e4724da49b1055cf56eee, type: 2}
   astronauts: {fileID: 11400000, guid: 456f384b631c6424eb18136234f9aed9, type: 2}
 --- !u!1 &1912505055224950292
@@ -131,7 +147,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 40, y: -40}
-  m_SizeDelta: {x: 182.46, y: 51.8}
+  m_SizeDelta: {x: 240.49, y: 51.8}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &8626342993721859859
 CanvasRenderer:
