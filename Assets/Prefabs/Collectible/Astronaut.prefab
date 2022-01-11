@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 803437196510882732}
   - component: {fileID: 4475545197087402235}
+  - component: {fileID: 383676509}
   m_Layer: 6
   m_Name: Astronaut
   m_TagString: Astronaut
@@ -40,11 +41,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8953869268840298523}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.17611551, y: 1, z: 0.43488932}
   m_Center: {x: 0.012141705, y: 0, z: -0.01488924}
+--- !u!114 &383676509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953869268840298523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4eb7c3569451cf43bb9bebd5c5e6b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onCollectThis: {fileID: 11400000, guid: 95d38d38fdcae974c9a3caef50362d02, type: 2}
 --- !u!1001 &4136442923295885941
 PrefabInstance:
   m_ObjectHideFlags: 0

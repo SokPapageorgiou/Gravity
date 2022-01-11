@@ -3,10 +3,10 @@ using UnityEngine;
 
 namespace Commons
 {
-    [CreateAssetMenu(menuName = "ScriptableObjects/GameEvent", fileName = "NewEvent")]
+    [CreateAssetMenu(menuName = "ScriptableObjects/Values/GameEvent", fileName = "NewEvent")]
     public class GameEvent : ScriptableObject
     {
-        private List<GameEventListener> _listeners = new List<GameEventListener>();
+        private readonly List<GameEventListener> _listeners = new List<GameEventListener>();
 
         public void Raise()
         {
