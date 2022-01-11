@@ -16,5 +16,4 @@ MonoBehaviour:
   angularSpeed: 45
   fuelAmount: 0
   fuelConsumeRate: 1
-  astronauts: 0
-  winnigCondition: 0
+  rescuedAstronauts: 56
