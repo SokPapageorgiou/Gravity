@@ -128,50 +128,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1227789003924293402, guid: 9bccb99a4343b8d429c0680b289cf296, type: 3}
   m_PrefabInstance: {fileID: 6497377678487107206}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &117427381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117427374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c2c0d2998a190949bb147f30043f3ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 95d38d38fdcae974c9a3caef50362d02, type: 2}
-  response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 117427381}
-        m_TargetAssemblyTypeName: Player.Score, Assembly-CSharp
-        m_MethodName: OnScore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &208786364 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5746031990294426075, guid: 58536a088a873ea41a0037fa87917077, type: 3}
   m_PrefabInstance: {fileID: 2062524164373083655}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &344391273 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-  m_PrefabInstance: {fileID: 366892839440869168}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4235317ea4c8d54ca0b9d79abbf2d2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &808391500
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,9 +399,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 808391501}
     m_Modifications:
-    - target: {fileID: 1121138616590662679, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 240.49
+    - target: {fileID: 1912505055224950292, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2390158137299267000, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
       propertyPath: m_Pivot.x
@@ -527,44 +488,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: gameEvent
-      value: 
-      objectReference: {fileID: 11400000, guid: 95d38d38fdcae974c9a3caef50362d02, type: 2}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 344391273}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
       propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTextToDisplay
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UI.ScoreDisplay, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4022571107640126702, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4560215886668758037, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: m_Maskable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4560215886668758037, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
-      propertyPath: m_RaycastTarget
-      value: 0
+      value: ActivateTextUpdate
       objectReference: {fileID: 0}
     - target: {fileID: 6703779701999279992, guid: 7611f6833b8430a4a9b5137526af4433, type: 3}
       propertyPath: m_Camera
