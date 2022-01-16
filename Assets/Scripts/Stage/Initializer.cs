@@ -5,18 +5,9 @@ namespace Stage
 {
     public class Initializer : MonoBehaviour
     {
-        [SerializeField] private Vector3 initialPosition;
-        
-        [SerializeField] private GameObject player;
-        [SerializeField] private GameObject spaceStation;
+        [SerializeField] private Stats playerStats;
 
-        private void Awake()
-        {
-            player.transform.position = initialPosition;
-            spaceStation.transform.position = initialPosition;
-            
-            player.GetComponent<PlayerStatsLoader>().playerStats.ResetAstronauts();
-        }
+        private void Awake() => playerStats.ResetAstronauts();
     }    
 }
 
