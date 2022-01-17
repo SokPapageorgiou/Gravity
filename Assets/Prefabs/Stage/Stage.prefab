@@ -60,9 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958918d04b93c484184bbbed7af67f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialPosition: {x: -8, y: 0, z: 3}
-  player: {fileID: 0}
-  spaceStation: {fileID: 0}
+  playerStats: {fileID: 11400000, guid: 65708ac1251e4724da49b1055cf56eee, type: 2}
 --- !u!114 &503798240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5236d205ff9e9374ab95242165388c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onLosing: {fileID: 11400000, guid: 736286803f397704297c3fa34838a97d, type: 2}
 --- !u!114 &6578531460381871673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,7 +105,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 287835328}
         m_TargetAssemblyTypeName: Stage.WinningConditions, Assembly-CSharp
-        m_MethodName: CheckWinCondition
+        m_MethodName: ScoreChanges
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -118,4 +117,4 @@ MonoBehaviour:
         m_CallState: 2
   playerStats: {fileID: 11400000, guid: 65708ac1251e4724da49b1055cf56eee, type: 2}
   astronauts: {fileID: 11400000, guid: 456f384b631c6424eb18136234f9aed9, type: 2}
-  onWinig: {fileID: 11400000, guid: 386993e1a6405f34bbf33ba2c7dc7957, type: 2}
+  onWinnig: {fileID: 11400000, guid: 386993e1a6405f34bbf33ba2c7dc7957, type: 2}

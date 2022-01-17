@@ -1,13 +1,21 @@
+using Commons;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Stage
 {
     [RequireComponent(typeof(Collider))]
     public class StageBoundaries : MonoBehaviour
     {
-        private void OnTriggerExit(Collider other)
+        [SerializeField] private GameEvent onLosing;
+        
+        private void OnTriggerExit(Collider other) 
         {
-            other.gameObject.SetActive(false);
+            if (other.CompareTag("Player"))
+            {
+                other.gameObject.SetActive(false);
+                onLosing.Raise();
+            }    
         }
     }    
 }
