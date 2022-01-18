@@ -199,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d5b4674c354f6e448ebec6bd2688e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onLosing: {fileID: 11400000, guid: 736286803f397704297c3fa34838a97d, type: 2}
 --- !u!114 &117427381
 MonoBehaviour:
   m_ObjectHideFlags: 0
