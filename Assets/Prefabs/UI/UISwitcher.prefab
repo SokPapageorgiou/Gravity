@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5063608563084420955}
   - component: {fileID: 2254192315038330136}
+  - component: {fileID: 4269299957180608508}
+  - component: {fileID: 287908321163287398}
   m_Layer: 0
   m_Name: UISwitcher
   m_TagString: Untagged
@@ -47,6 +49,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainUI: {fileID: 7563903941510065163}
   endScreen: {fileID: 281538667168847046}
+--- !u!114 &4269299957180608508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5324451321644685735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13fa9632794d53a45aba736b2ec49fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 736286803f397704297c3fa34838a97d, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2254192315038330136}
+        m_TargetAssemblyTypeName: UI.Switcher, Assembly-CSharp
+        m_MethodName: ActivateEndScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &287908321163287398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5324451321644685735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13fa9632794d53a45aba736b2ec49fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 386993e1a6405f34bbf33ba2c7dc7957, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2254192315038330136}
+        m_TargetAssemblyTypeName: UI.Switcher, Assembly-CSharp
+        m_MethodName: ActivateEndScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &504208521148234715
 PrefabInstance:
   m_ObjectHideFlags: 0
