@@ -5,11 +5,7 @@ namespace UI
 {
     public class SceneLoader : MonoBehaviour
     {
-        public void LoadScene(string scene)
-        {
-            Debug.Log("LoadScene has been called");
-            SceneManager.LoadScene(scene);
-        }
+        public void LoadScene(string scene) => SceneManager.LoadScene(scene);
     }    
 }
 
