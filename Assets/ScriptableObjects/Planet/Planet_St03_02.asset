@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086b56a87ae11c545b2cba118535c6a2, type: 3}
+  m_Name: Planet_St03_02
+  m_EditorClassIdentifier: 
+  scale: 0.3
+  mass: 10
+  gravityFieldScale: 4
+  planet: {fileID: 7233032514402116185, guid: 28c5245f8fe191648b5a0195e33faab6, type: 3}
+  gravityField: {fileID: 6407524975885189333, guid: 2f192243145e0d34d9ae83c7148fe6ac, type: 3}
