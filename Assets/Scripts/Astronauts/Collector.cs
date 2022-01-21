@@ -8,7 +8,7 @@ namespace Astronaut
     {
         [SerializeField] private GameEvent onCollectThis;
 
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerEnter(Collider other)
         {
             onCollectThis.Raise();
             
