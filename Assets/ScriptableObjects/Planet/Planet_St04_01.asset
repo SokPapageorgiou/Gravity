@@ -16,4 +16,4 @@ MonoBehaviour:
   mass: -10
   gravityFieldScale: 5
   planet: {fileID: 7233032514402116185, guid: 28c5245f8fe191648b5a0195e33faab6, type: 3}
-  gravityField: {fileID: 6407524975885189333, guid: 2f192243145e0d34d9ae83c7148fe6ac, type: 3}
+  gravityField: {fileID: 6407524975885189333, guid: d848c134260dd8145ae33edfdb6ae667, type: 3}
