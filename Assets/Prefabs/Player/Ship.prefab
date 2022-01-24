@@ -101,6 +101,8 @@ GameObject:
   - component: {fileID: 117427381}
   - component: {fileID: 117427375}
   - component: {fileID: 117427376}
+  - component: {fileID: 8615923361150546565}
+  - component: {fileID: 8293100274530818097}
   m_Layer: 3
   m_Name: Ship
   m_TagString: Player
@@ -175,7 +177,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227789003924293402}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b87e86a1e9842fc41a186bd75c32baee, type: 3}
   m_Name: 
@@ -281,6 +283,48 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8615923361150546565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227789003924293402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0093acc50899a4fb1947c9a4c2f052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertical: {fileID: 11400000, guid: 6f4a28a970bc215488a098b02f0da624, type: 2}
+  horizontal: {fileID: 11400000, guid: 05d3ff353b498504bbb09ecf04c26662, type: 2}
+--- !u!114 &8293100274530818097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227789003924293402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c160d735a8e141895d4e7901d9a6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 6f4a28a970bc215488a098b02f0da624, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8293100274530818097}
+        m_TargetAssemblyTypeName: Player.Acceleration, Assembly-CSharp
+        m_MethodName: Accelerate
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
