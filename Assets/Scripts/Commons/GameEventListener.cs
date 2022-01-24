@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,4 +14,5 @@ namespace Commons
 
         public void OnEventRaised() => response.Invoke();
     }
+    
 }
