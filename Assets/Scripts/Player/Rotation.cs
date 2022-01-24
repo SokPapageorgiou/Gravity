@@ -23,7 +23,6 @@ namespace Player
         
         public void Rotate(float input)
         {
-            Debug.Log("Rotation has been called");
             _deltaRotation = Quaternion.Euler(input * Time.fixedDeltaTime * _eulerVelocityAngle);
             _rigidbody.MoveRotation(_rigidbody.rotation * _deltaRotation);
         }
