@@ -18,8 +18,8 @@ namespace Player
         
         private void RaiseEvents()
         {
-            if (_verticalValue != 0) vertical.Raise(_verticalValue);
-            if (_horizontalValue != 0) horizontal.Raise(_horizontalValue);
+            vertical.Raise(_verticalValue);
+            horizontal.Raise(_horizontalValue);
         }
 
         private void GetInputAxis()
