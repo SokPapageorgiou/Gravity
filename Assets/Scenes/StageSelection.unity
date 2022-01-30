@@ -671,14 +671,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 876575849}
     m_Modifications:
-    - target: {fileID: 137553793, guid: 7d3379003d2a9b24782a8874f3b91dd6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 503103285, guid: 7d3379003d2a9b24782a8874f3b91dd6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3246943245232410281, guid: 7d3379003d2a9b24782a8874f3b91dd6, type: 3}
       propertyPath: m_Name
       value: UIStageSelection
